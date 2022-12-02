@@ -1,0 +1,9 @@
+
+- write main function that takes 2 parameters argc and argv
+- take a file name and number of required threads
+- make an array of future variables where each variable stores the returned value of processed students by its thread
+- calculate the whole number of processed students by adding future variables in a for loop
+- to ensure synchronization, add a mutext.lock and mutex.unlock around the while loop in the studentfile.cpp
+- dont forget to declare the mutex in the studentfile.h
+
+                                                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% HAVE A NICE DAY!!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

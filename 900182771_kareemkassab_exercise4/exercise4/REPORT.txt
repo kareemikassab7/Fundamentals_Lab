@@ -1,0 +1,23 @@
+Exercise 4 report
+
+Problem 1(how to ammend):
+- an infinite loop is needed and is made by (while(true)) or (for;;)
+- an if condition that checks if the command is "exit", and breaks the loop if so.
+- a command that forks 
+- a command that checks(if condition) if we are in child and execute command, or in parent nd wait (uses waitpid)
+
+
+problem 2 (how to ammend):
+
+- include thread library to be able to use threads
+- mention using namespace std
+- add a thread and pass the add function, and the 3 matrices to it inside a for loop.
+-use t1.join();
+
+
+SCREENSHOTS ARE IN THE FILES THEMSELVES
+
+BONUS:
+REPOSITORY NAME: kareemikassab
+PROBLEM 1 IMAGE NAME: simpleimg
+PROBLEM 2 IMAGE NAME: matriximg

@@ -1,0 +1,14 @@
+
+- write a mian function that takes argc (the number of parameters) and argv(string displays parameter)
+- add a checking if statement to make sure that more than 1 file is passed
+- create a 2D array using calloc array of pointers
+- instantiate an object of the class studentlist
+- create an array of threads with a number equal to the passed files (argc)
+- implement a loop so that each thread reads from a file 
+- make another loop to join threads and make the main wait
+- delete the linked list so that the destructor is called and prints the data
+- make a mutex variable lock in the student list so that threads do not interrupt each other (shared among different methods)
+- put mutex lock and unlock around append method
+
+
+                                                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% HAVE A NICE DAY!!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

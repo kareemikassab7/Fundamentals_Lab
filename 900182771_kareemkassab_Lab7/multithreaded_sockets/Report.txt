@@ -1,0 +1,7 @@
+How to fix the code:
+-make the sizes 1500 instead of 1024 to fit max data in one packet
+-change the file into a buffer
+-put thread main body in an infinite loop and exclude the shutdown out of it
+- put a for loop that sets a buffer to 0's and then reads into it 
+- put an if condition in the for loop to shutdown when the user types exit
+- use popen on the buffer to execute command and write to socket to send the results back.

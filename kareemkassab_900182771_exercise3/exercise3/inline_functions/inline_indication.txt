@@ -1,0 +1,22 @@
+FILE1:
+Function that is called normally (not inlined): x = inc(&x);
+
+
+call    _Z3incPi
+        movl    %eax, -20(%rbp)
+        movl    $0, %eax
+        movq    -8(%rbp), %rcx
+        xorq    %fs:40, %rcx
+
+
+Function that is inlined: x = inc_inline_forced(&x);
+movq	-16(%rbp), %rax
+	movl	%edx, (%rax)
+	movq	-16(%rbp), %rax
+	movl	(%rax), %eax
+	movl	%eax, -20(%rbp)
+	movl	-20(%rbp), %eax
+	movl	%eax, %esi
+	leaq	.LC0(%rip), %rdi
+	movl	$0, %eax
+

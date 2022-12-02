@@ -1,0 +1,36 @@
+how to ammend,
+The client:
+- add the terminate with error function for an initial check
+- use get arguments function to get whats written on the terminal
+- put the main code in a while true loop to run indefinitley
+- declare a socket
+you will need to add the following to the code in the slides which connects and sends to a server that is listening
+1- a variable that stores the length of the command
+2- a send function that sends this length
+3- a send function that sends the body of the command
+4- a buffer that is initiated with 0's
+5- a recevier for the buffer
+6- a close function
+
+
+
+
+
+The server:
+
+- add the terminate with error function for an initial check
+- put the main code in a while true loop to run indefinitley
+- declare a socket
+- make sure the socket uses INET 
+- use the portal 8707
+- the accept and listen functions are implemented in the slides
+-make the read bytes equal to what is received
+
+you will need to add:
+- a file pointer
+- fseek and ftell to measure the size
+- a variable that carries that size
+-allocate a space for the buffer using calloc
+- read the file using fread
+- close popen with pclose
+-close sockets
